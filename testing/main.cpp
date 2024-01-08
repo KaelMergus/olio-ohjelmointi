@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -11,7 +12,7 @@ int main()
 
     avg = (a + b + c)/3;
 
-    cout << "Keskiarvo on: " << avg << endl;
+    cout << "Keskiarvo on: " << fixed << setprecision(2) << avg << endl;
 
 
     return 0;
