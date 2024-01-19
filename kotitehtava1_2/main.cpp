@@ -9,7 +9,7 @@ int game(int maxnum);
 
 int main()
 {
-   int max{20};
+   int max{40};
 
  int result = game(max);
 
@@ -37,7 +37,7 @@ int i = 0;
 rnd_number = rand() % maxnum + min;
 
 do {
-    i = i + 1;
+    i++;
     cin >> arvaus;
 
    if (arvaus < rnd_number)
