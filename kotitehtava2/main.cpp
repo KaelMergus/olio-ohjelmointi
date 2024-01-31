@@ -4,7 +4,7 @@
 
 int main()
 {
-    Game gameObject(20);
+    Game gameObject(30);
     gameObject.Play();
     return 0;
 }
